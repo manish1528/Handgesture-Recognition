@@ -168,7 +168,7 @@ function checkImageWithNyckel(image)
     formdata.append('file', image);
 
     $.ajax({
-        url:'https://www.nyckel.com/connect/token',
+        url:'https://www.nyckel.com/v1/functions/udymqztfgbsrwvj0/invoke',
         type: 'post',
         data: formdata,
         contentType: false,
